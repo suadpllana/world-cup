@@ -1,0 +1,12 @@
+# FIFA World Cup 2026 Fan Hub - robots.txt
+# https://worldcup2026.com/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /admin-panel
+
+# Sitemaps
+Sitemap: https://worldcup2026.com/sitemap.xml
+
+# Crawl-delay (optional, be nice to bots)
+Crawl-delay: 1
