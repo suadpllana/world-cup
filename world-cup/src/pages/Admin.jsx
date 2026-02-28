@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import { Shield, Lock, Unlock, Trash2, UserX, MessageSquare, ToggleLeft, ToggleRight, Eye, EyeOff, LogOut, Settings, Users, BarChart3, AlertTriangle } from 'lucide-react';
 import SEO from '../components/SEO';
 
-// ========== HARDCODED CREDENTIALS ==========
-const ADMIN_USER = 'suad';
-const ADMIN_PASS = 'wc2026admin';
-// ============================================
+// ========== CREDENTIALS (from .env) ==========
+const ADMIN_USER = import.meta.env.VITE_ADMIN_USER;
+const ADMIN_PASS = import.meta.env.VITE_ADMIN_PASS;
+// ===============================================
 
 const CHAT_ROOMS = ['general', 'predictions', 'matchday', 'memes'];
 
